@@ -1,2 +1,2 @@
-# react-google-books-search
-A React-based Google Books Search app
+# React Google Books Search
+A React-based Google Books Search app.
