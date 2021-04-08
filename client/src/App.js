@@ -5,6 +5,9 @@ import "./App.css";
 import Favorites from "./Pages/favorites/index";
 import Search from "./Pages/books/index";
 
+
+console.log(process.env.REACT_APP_GOOGLE_API_KEY)
+
 class App extends Component {
   render() {
     return (

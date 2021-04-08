@@ -3,7 +3,7 @@ import axios from "axios";
 export default {
     // Gets all books
     getBook: function (search) {
-        return axios.get(`https://www.googleapis.com/books/v1/volumes?q=${search}&key=AIzaSyABIKR9YRWVV4lJc-0Nsz_XIHCL2676exs`);
+        return axios.get(`https://www.googleapis.com/books/v1/volumes?q=${search}&key=${process.env.REACT_APP_API_KEY}`);
     },
 
     // Gets the searched book 
