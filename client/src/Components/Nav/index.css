@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montaga&family=Roboto+Slab:wght@900&display=swap");
+
+.navLink {
+  font-family: "Montaga", serif;
+  font-size: 20px;
+  z-index: 10;
+
+  color: #222222;
+}
+.navLink:hover {
+  text-decoration: underline #ff9163;
+  color: #ff9163;
+}
+@media only screen and (max-width: 600px) {
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -18,7 +18,6 @@ class App extends Component {
             <Route exact path="/" component={Search} />
           </Switch>
         </Router>
-
       </>
     );
   };

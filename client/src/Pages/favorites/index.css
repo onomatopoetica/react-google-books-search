@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Caladea&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+
+.delete-icon {
+  font-size: 1em;
+  align-items: center;
+  cursor: pointer;
+  color: rgba(128, 128, 128, 0.582);
+}
+
+.book-card h2 {
+  font-family: Montaga;
+}

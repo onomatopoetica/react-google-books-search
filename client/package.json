@@ -12,6 +12,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.12.3",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3"

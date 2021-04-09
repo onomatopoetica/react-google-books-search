@@ -1,0 +1,79 @@
+.book-in-db {
+    font-family: "Montaga", serif;
+    color: #8a8a8a;
+    text-align: center;
+    font-size: 14px;
+  }
+  .book-item {
+    font-family: "Montaga", serif;
+    display: flex;
+    padding: 5px;
+  }
+  .book-card {
+    margin-top: 10vh;
+  }
+  .book-cover {
+    align-items: center;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .book-card h5 {
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .book-card h6 {
+    font-size: 16px;
+    color: gray;
+  }
+  .book-description {
+    font-size: 15px;
+    color: #363636;
+  }
+  .hide {
+    display: none;
+  }
+  .save-button {
+    background-color: inherit;
+    border: 1px solid silver;
+    border-radius: 5px;
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .save-button:hover {
+    background-color: #ff9163;
+    transition: 1s;
+    color: white;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .fa-heart {
+    cursor: pointer;
+  }
+  
+  .fa-heart:hover {
+    color: red;
+  }
+  
+  .modal-body-bookCard {
+    font-family: "Caladea";
+    font-size: 14px !important;
+    letter-spacing: 0.5px;
+    padding: 20px;
+  }
+  
+  .modal-header-bookCard {
+    padding: 5px !important;
+  }
