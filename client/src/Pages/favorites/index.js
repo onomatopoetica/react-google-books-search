@@ -31,10 +31,10 @@ function Favorites() {
             <div className=" book-card container  ">
                 <h2 className="">Saved books</h2>
 
-                {favorites.map((result) => (
-                    <div className="row " key={result.title}>
-                        <div className=" container book-item card mb-4  ">
-                            {/* <div className="row " key={result.title}> */}
+                {favorites.map((result, index) => (
+                    // <div className="row " key={result.title}>
+                    <div className=" container book-item card mb-4  ">
+                        <div className="row " key={result.title + index}>
                             <div className="col-md-2 col-sm-4 book-cover ">
                                 {" "}
                                 <img
