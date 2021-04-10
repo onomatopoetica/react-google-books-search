@@ -5,12 +5,10 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
+    "aws-amplify": "^3.3.26",
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.6.0",
-    "concurrently": "^6.0.1",
-    "express": "^4.17.1",
-    "mongoose": "^5.12.3",
     "react": "^16.13.1",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^16.13.1",

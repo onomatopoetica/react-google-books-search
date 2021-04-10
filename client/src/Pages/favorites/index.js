@@ -52,7 +52,7 @@ function Favorites() {
                                 </div>
                                 <div className="row">
                                     <div className="col">
-                                        <h6> {result.author}</h6>
+                                        <h6>{result.author}</h6>
                                     </div>
                                 </div>
                                 <div className="row ">
@@ -64,7 +64,7 @@ function Favorites() {
                                     <div className="col-3">
                                         <i
                                             onClick={() => deleteBook(result)}
-                                            class="far  delete-icon fa-trash-alt"
+                                            class="far fa-trash-alt delete-icon"
                                         ></i>
                                     </div>
                                 </div>

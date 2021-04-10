@@ -10,7 +10,7 @@ function BookCard(props) {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    //check in the db if favorite book it's already there, if so does not post
+    // Check in the db if favorite book is already there, if so does not post
     function saveBook(result) {
         const title = result.title;
         console.log(title);
@@ -56,10 +56,10 @@ function BookCard(props) {
             </h6>
 
             <div className=" book-card  ">
-                {props.results.map((result) => (
-                    <div className=" container book-item card mb-4  ">
-                        <div className="row " key={result.title}>
-                            <div className="col-md-2 col-sm-4 book-cover ">
+                {props.results.map((result, index) => (
+                    <div key={result.title + index} className="container book-item card mb-4">
+                        <div className="row ">
+                            <div className="col-md-2 col-sm-4 book-cover">
                                 {" "}
                                 <img
                                     onError={(e) => {
@@ -74,7 +74,7 @@ function BookCard(props) {
                                     alt="Book Cover"
                                 />
                             </div>
-                            <div className="col-md-10 col-sm-8  ">
+                            <div className="col-md-10 col-sm-8">
                                 <div className="row">
                                     <div className="col">
                                         <h5>{result.title}</h5>
@@ -85,15 +85,15 @@ function BookCard(props) {
                                         <h6> {result.authors}</h6>
                                     </div>
                                 </div>
-                                <div className="row ">
-                                    <div className="col book-description ">
+                                <div className="row">
+                                    <div className="col book-description">
                                         <p>{result.description}</p>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-3">
                                         <p
-                                            className=" save-button"
+                                            className="save-button"
                                             onClick={() => saveBook(result)}
                                             id={result.title}
                                         >
