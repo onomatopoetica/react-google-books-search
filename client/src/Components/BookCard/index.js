@@ -30,7 +30,7 @@ function BookCard(props) {
                     setMessage(false)
                 );
 
-                //push the new book object to the end of the array of favorites
+                // Push the new book object to the end of the array of favorites
                 setFavorites((prevArray) => [...prevArray, bookData]);
             } else {
                 setMessage(true);

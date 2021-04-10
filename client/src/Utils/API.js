@@ -12,8 +12,8 @@ export default {
     },
 
     // Gets favorite books
-    getFavorites: function () {
-        return axios.post("/api/books/");
+    getAllFavorites: function () {
+        return axios.get("/api/books/");
     },
 
     // Deletes the book with the given id

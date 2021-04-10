@@ -10,9 +10,9 @@ function Hero() {
                     <h4>
                         <q>
                             {" "}
-              Lorem ipsum.
+                            That is part of the beauty of all literature. You discover that your longings are universal longings, that you're not lonely and isolated from anyone. You belong.
             </q>
-                        <small> F. Scott Fitzgerald</small>
+                        <small> ~ F. Scott Fitzgerald</small>
                     </h4>
                 </div>
                 <div className="col-md-6 col-sm-12">

@@ -13,6 +13,7 @@ function Favorites() {
 
     function loadBooks() {
         Api.getAllFavorites().then((res) => {
+            console.log(res)
             setFavorites(res.data);
         });
     }
@@ -31,8 +32,9 @@ function Favorites() {
                 <h2 className="">Saved books</h2>
 
                 {favorites.map((result) => (
-                    <div className=" container book-item card mb-4  ">
-                        <div className="row " key={result.title}>
+                    <div className="row " key={result.title}>
+                        <div className=" container book-item card mb-4  ">
+                            {/* <div className="row " key={result.title}> */}
                             <div className="col-md-2 col-sm-4 book-cover ">
                                 {" "}
                                 <img
@@ -64,7 +66,7 @@ function Favorites() {
                                     <div className="col-3">
                                         <i
                                             onClick={() => deleteBook(result)}
-                                            class="far fa-trash-alt delete-icon"
+                                            className="far fa-trash-alt delete-icon"
                                         ></i>
                                     </div>
                                 </div>
