@@ -12,9 +12,9 @@ function NavBar() {
                 <Link className="nav-link navLink" to="/">
                     Home
         </Link>
-                <Link className="nav-link navLink" to="favorites">
+                {/* <Link className="nav-link navLink" to="favorites">
                     Favorites
-        </Link>
+        </Link> */}
             </div>
         </nav>
     );

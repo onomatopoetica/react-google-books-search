@@ -92,7 +92,7 @@ function BookCard(props) {
                                         <p>{result.description}</p>
                                     </div>
                                 </div>
-                                <div className="row">
+                                {/* <div className="row">
                                     <div className="col-3">
                                         <p
                                             className="save-button"
@@ -102,7 +102,7 @@ function BookCard(props) {
                                             Add to favorites
                     </p>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
