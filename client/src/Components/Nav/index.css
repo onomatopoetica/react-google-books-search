@@ -1,15 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Montaga&family=Roboto+Slab:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 .navLink {
-  font-family: "Montaga", serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   z-index: 10;
-
-  color: #222222;
+  color: rgb(2, 2, 29);
 }
 .navLink:hover {
-  text-decoration: underline #ff9163;
-  color: #ff9163;
+  text-decoration: none;
+  color: #f7576f;
 }
 @media only screen and (max-width: 600px) {
   .nav-bar {

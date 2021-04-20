@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montaga&family=Roboto+Slab:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 .reader-img {
   height: auto;
@@ -6,7 +6,7 @@
 }
 
 .hero-text h4 {
-  font-family: Montaga;
+  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
 }
 
@@ -14,9 +14,17 @@
   margin-top: 10vh;
 }
 
+q {
+  color: teal;
+}
+
+small{
+  color: rgb(2, 2, 29);
+}
+
 @media only screen and (max-width: 600px) {
   .hero-text h4 {
-    font-family: Montaga;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     text-align: center;
     margin-bottom: 5vh;

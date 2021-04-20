@@ -10,9 +10,11 @@ function Hero() {
                     <h4>
                         <q>
                             {" "}
-                            That is part of the beauty of all literature. You discover that your longings are universal longings, that you're not lonely and isolated from anyone. You belong.
+                             That is part of the beauty of all literature. You discover that your longings are universal longings, that you're not lonely and isolated from anyone. You belong.
             </q>
-                        <small> ~ F. Scott Fitzgerald</small>
+                        <div>
+                            <small> F. Scott Fitzgerald</small>
+                        </div>
                     </h4>
                 </div>
                 <div className="col-md-6 col-sm-12">

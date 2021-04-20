@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Caladea&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
 .delete-icon {
   font-size: 1em;
@@ -9,5 +8,5 @@
 }
 
 .book-card h2 {
-  font-family: Montaga;
+  font-family: 'Montserrat', sans-serif;
 }

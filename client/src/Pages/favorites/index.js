@@ -46,7 +46,7 @@ function Favorites() {
                                     alt="Book Cover"
                                 />
                             </div>
-                            <div className="col-md-10 col-sm-8  ">
+                            <div className="col-md-10 col-sm-8">
                                 <div className="row">
                                     <div className="col">
                                         <h5>{result.title}</h5>

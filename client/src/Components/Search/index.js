@@ -31,7 +31,7 @@ function SearchBox() {
                     <input
                         type="text"
                         className="col-md-5 form-control book-input"
-                        placeholder="Search books.."
+                        placeholder="Search for a book"
                         aria-describedby="basic-addon2"
                         value={search}
                         name="search"
