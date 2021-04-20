@@ -10,7 +10,7 @@
   color: #f7576f;
 }
 .book-input {
-  background-color: white !important;
+  background-color: none !important;
   position: absolute;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -18,5 +18,5 @@
 }
 
 input:hover {
-  box-shadow: 0px 0px 4px 4px lightseagreen;
+  box-shadow: 0px 0px 4px 4px rgb(154, 227, 223);
 }

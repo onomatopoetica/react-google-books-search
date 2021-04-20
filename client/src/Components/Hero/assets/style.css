@@ -18,8 +18,8 @@ q {
   color: teal;
 }
 
-small{
-  color: rgb(2, 2, 29);
+em {
+  color: rgb(41, 41, 67);
 }
 
 @media only screen and (max-width: 600px) {

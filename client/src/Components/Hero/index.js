@@ -13,7 +13,7 @@ function Hero() {
                              That is part of the beauty of all literature. You discover that your longings are universal longings, that you're not lonely and isolated from anyone. You belong.
             </q>
                         <div>
-                            <small> F. Scott Fitzgerald</small>
+                            <em> F. Scott Fitzgerald</em>
                         </div>
                     </h4>
                 </div>
