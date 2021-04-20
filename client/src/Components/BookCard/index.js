@@ -11,6 +11,7 @@ function BookCard(props) {
     const handleShow = () => setShow(true);
 
     // Check in the db if favorite book is already there, if so does not post
+
     function saveBook(result) {
         const title = result.title;
         console.log(title);
@@ -31,6 +32,7 @@ function BookCard(props) {
                 );
 
                 // Push the new book object to the end of the array of favorites
+
                 setFavorites((prevArray) => [...prevArray, bookData]);
             } else {
                 setMessage(true);
@@ -55,7 +57,7 @@ function BookCard(props) {
         <i className="fas fa-heart"></i>
             </h6>
 
-            <div className=" book-card  ">
+            <div className="book-card">
                 {props.results.map((result, index) => (
                     <div key={result.title + index} className="container book-item card mb-4">
                         <div className="row ">

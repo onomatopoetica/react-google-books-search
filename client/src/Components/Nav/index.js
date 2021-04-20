@@ -4,15 +4,15 @@ import "./index.css";
 
 function NavBar() {
     return (
-        <nav className="nav-bar navbar container   ">
-            <Link className=" navbar-brand " to="/">
+        <nav className="nav-bar navbar container">
+            <Link className="navbar-brand" to="/">
 
             </Link>
             <div className="nav navbar-right">
-                <Link className="nav-link  navLink " to="/">
+                <Link className="nav-link navLink" to="/">
                     Home
         </Link>
-                <Link className="nav-link navLink  " to="favorites">
+                <Link className="nav-link navLink" to="favorites">
                     Favorites
         </Link>
             </div>

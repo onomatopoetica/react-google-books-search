@@ -6,7 +6,7 @@ import NavBar from "../../Components/Nav/index";
 function Favorites() {
     const [favorites, setFavorites] = useState([]);
 
-    // Load all books and store them with setBooks
+    // Load all books and store with setBooks
     useEffect(() => {
         loadBooks();
     }, []);
@@ -33,9 +33,9 @@ function Favorites() {
 
                 {favorites.map((result, index) => (
                     // <div className="row " key={result.title}>
-                    <div className=" container book-item card mb-4  ">
-                        <div className="row " key={result.title + index}>
-                            <div className="col-md-2 col-sm-4 book-cover ">
+                    <div className="container book-item card mb-4" key={result.title + index}>
+                        <div className="row" >
+                            <div className="col-md-2 col-sm-4 book-cover">
                                 {" "}
                                 <img
                                     onError={(e) => {

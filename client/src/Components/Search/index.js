@@ -30,7 +30,6 @@ function SearchBox() {
                         type="text"
                         className="col-md-5 form-control book-input"
                         placeholder="Search for a book"
-                        aria-describedby="basic-addon2"
                         value={search}
                         name="search"
                         onChange={(event) => setSearch(event.target.value)}
@@ -41,7 +40,6 @@ function SearchBox() {
                         </span>
                     </div>
                 </div>
-
                 <BookCard results={result} search={search} />
             </div>
         </>
