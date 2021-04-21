@@ -48,7 +48,7 @@ function BookCard(props) {
                     closeButton
                 ></Modal.Header>
                 <Modal.Body className="modal-body-bookCard">
-                    Book successfully added to favorites <i class="fas fa-heart"></i>
+                    Book successfully added to favorites <i className="fas fa-heart"></i>
                 </Modal.Body>
             </Modal>
 
