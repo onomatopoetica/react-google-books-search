@@ -1,13 +1,10 @@
+![Github followers](https://img.shields.io/github/followers/onomatopoetica?logo=GitHub&style=flat)  ![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/react-google-books-search)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/react-google-books-search)  ![GitHub language count](https://img.shields.io/github/languages/count/onomatopoetica/react-google-books-search?color=light-blue&logo=GitHub&style=flat)  ![npm](https://img.shields.io/badge/library-react.js-purple/?style=flat&logo=react) ![GitHub license](https://img.shields.io/badge/license-MIT-blueviolet)<br>
+
 # React Google Books Search
 A React-based Google Books Search app.
 
-![Github followers](https://img.shields.io/github/followers/onomatopoetica?logo=GitHub&style=flat)  ![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/react-google-books-search)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/react-google-books-search)  ![GitHub language count](https://img.shields.io/github/languages/count/onomatopoetica/react-google-books-search?color=light-blue&logo=GitHub&style=flat)  ![npm](https://img.shields.io/badge/library-react.js-purple/?style=flat&logo=react) ![GitHub license](https://img.shields.io/badge/license-MIT-blueviolet)<br>
-
-# React Employee Directory
-An employee directory application using React to create UI components, manage component state and respond to user input events. 
-
 ## Project Links
-[Repo Link](https://github.com/onomatopoetica/react-react-google-books-search) <br>
+[Repo Link](https://github.com/onomatopoetica/react-google-books-search) <br>
 [Heroku](https://react-googlebooks-search-app.herokuapp.com/)
     
 ## Table of Contents
