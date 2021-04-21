@@ -33,9 +33,9 @@ function Favorites() {
 
                 {favorites.map((result, index) => (
                     // <div className="row " key={result.title}>
-                    <div className="container book-item card mb-4">
+                    <div key={result.title + index} className="container book-item card mb-4">
                         <div className="row">
-                            <div className="col-md-2 col-sm-4 book-cover" key={result.title + index}>
+                            <div className="col-md-2 col-sm-4 book-cover">
                                 {" "}
                                 <img
                                     onError={(e) => {
