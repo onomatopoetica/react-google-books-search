@@ -32,7 +32,6 @@ function Favorites() {
                 <h2 className="favorites">Saved Books</h2>
 
                 {favorites.map((result, index) => (
-                    // <div className="row " key={result.title}>
                     <div key={`${result.title} + ${index}`} className="container book-item card mb-4">
                         <div className="row">
                             <div className="col-md-2 col-sm-4 book-cover">
