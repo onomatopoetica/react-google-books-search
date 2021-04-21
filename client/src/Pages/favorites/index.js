@@ -28,14 +28,14 @@ function Favorites() {
         <>
             <NavBar />
 
-            <div className=" book-card container  ">
-                <h2 className="">Saved books</h2>
+            <div className="book-card container">
+                <h2 className="favorites">Saved books</h2>
 
                 {favorites.map((result, index) => (
                     // <div className="row " key={result.title}>
-                    <div className="container book-item card mb-4" key={result.title + index}>
-                        <div className="row" >
-                            <div className="col-md-2 col-sm-4 book-cover">
+                    <div className="container book-item card mb-4">
+                        <div className="row">
+                            <div className="col-md-2 col-sm-4 book-cover" key={result.title + index}>
                                 {" "}
                                 <img
                                     onError={(e) => {
