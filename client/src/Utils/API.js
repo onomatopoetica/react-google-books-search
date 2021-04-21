@@ -23,6 +23,6 @@ export default {
 
     // Saves a book to the database
     getBookByTitle: function (title) {
-        return axios.get("/api/books/title" + title);
+        return axios.get("/api/books/title/" + title);
     }
 };
