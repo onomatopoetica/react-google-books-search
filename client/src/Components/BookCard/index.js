@@ -99,7 +99,7 @@ function BookCard(props) {
                                             onClick={() => saveBook(result)}
                                             id={result.title}
                                         >
-                                            Add to favorites
+                                            Favorite
                     </p>
                                     </div>
                                 </div>
