@@ -34,7 +34,7 @@ This is a books search application with React, Node, Express and MongoDB utilizi
 * Axios
 * MongoDB
     
-## Installation: 
+## Installation
  
 #### Clone Repository
 
@@ -52,6 +52,7 @@ This is a books search application with React, Node, Express and MongoDB utilizi
 
 * Once React and dependencies are installed, cd into your directory and run `npm start` to view the project on http://localhost:3000/.
 <br>
+
 ## Usage 
 
 * See [About The Project](#About-The-Project) or [Demo](#Demo) video above for more information on how it works.
