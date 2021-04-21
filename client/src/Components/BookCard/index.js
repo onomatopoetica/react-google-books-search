@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./index.css";
-import Api from "../../Utils/Api";
+import Api from "../../Utils/API";
 import Modal from "react-bootstrap/Modal";
 
 function BookCard(props) {
