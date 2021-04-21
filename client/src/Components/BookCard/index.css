@@ -63,6 +63,7 @@
   
   .fa-heart {
     cursor: pointer;
+    color: rgb(252, 102, 102);
   }
   
   .fa-heart:hover {

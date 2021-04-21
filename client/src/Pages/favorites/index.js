@@ -29,7 +29,7 @@ function Favorites() {
             <NavBar />
 
             <div className="book-card container">
-                <h2 className="favorites">Saved books</h2>
+                <h2 className="favorites">Saved Books</h2>
 
                 {favorites.map((result, index) => (
                     // <div className="row " key={result.title}>

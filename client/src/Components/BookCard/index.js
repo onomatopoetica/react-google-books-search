@@ -52,15 +52,14 @@ function BookCard(props) {
                 </Modal.Body>
             </Modal>
 
-            <h6 className="book-in-db" style={message ? {} : { display: "none" }}>
-                It looks like this book is already in your favorites
-        <i className="fas fa-heart"></i>
-            </h6>
+            <h4 className="book-in-db" style={message ? {} : { display: "none" }}>
+                It looks like this book is already in your favorites <i className=" fas fa-heart"></i>
+            </h4>
 
             <div className="book-card">
                 {props.results.map((result, index) => (
                     <div key={result.title + index} className="container book-item card mb-4">
-                        <div className="row ">
+                        <div className="row">
                             <div className="col-md-2 col-sm-4 book-cover">
                                 {" "}
                                 <img
