@@ -19,6 +19,8 @@ A React-based Google Books Search app.
 ## About The Project
 This is a books search application with React, Node, Express and MongoDB utilizing the Google Books API. 
 
+The user can search for a book, the search will render a list of books relevant to the search word. Then the user can save book titles to a list of favorites which are saved to the MongoDB.
+
 ## Demo
 
 #### The following is a screenshot of the application and overview of its functionality: <br>
@@ -55,7 +57,7 @@ This is a books search application with React, Node, Express and MongoDB utilizi
 
 ## Usage 
 
-* See [About The Project](#About-The-Project) or [Demo](#Demo) video above for more information on how it works.
+* See [About The Project](#About-The-Project) or [Demo](#Demo) image above for more information on how it works.
 * View [Project Links](#Project-Links) above for the link to the deployed app on Heroku.
 
 ### _Return to [Table of Contents](#Table-of-Contents)_
