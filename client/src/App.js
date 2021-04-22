@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
           <Switch>
             <Route exact path="/favorites" component={Favorites} />
             <Route exact path="/" component={SearchBox} />
