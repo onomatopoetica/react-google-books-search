@@ -71,7 +71,7 @@
   }
   
   .modal-body-bookCard {
-    font-family: "Caladea";
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px !important;
     letter-spacing: 0.5px;
     padding: 20px;
@@ -79,6 +79,10 @@
   
   .modal-header-bookCard {
     padding: 5px !important;
+  }
+
+  button:focus {
+    outline: 0;
   }
 
   @media only screen and (max-width: 600px) {
